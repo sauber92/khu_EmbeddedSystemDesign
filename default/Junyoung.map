@@ -1,0 +1,519 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                              gnu_avr_sciutil.o (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                              Junyoung.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fdevopen.o)
+                              Junyoung.o (fdevopen)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fdevopen.o) (__iob)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(calloc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fdevopen.o) (calloc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(calloc.o) (malloc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memset.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(calloc.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+__flp               0x2               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+operation_mode      0x1               Junyoung.o
+__iob               0x6               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+LOAD GCC_asm_get_keypad_multi_code.o
+LOAD Junyoung.o
+LOAD GCC_asm_uart.o
+LOAD GCC_asm_lcd_hd44_4bit__soft_util.o
+LOAD GCC_asm_soft_delay_u_mSec.o
+LOAD gnu_avr_sciutil.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xaac
+ *(.vectors)
+ .vectors       0x00000000       0x8c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x0000008c                . = ALIGN (0x2)
+                0x0000008c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000008c                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000008c                __ctors_start = .
+ *(.ctors)
+                0x0000008c                __ctors_end = .
+                0x0000008c                __dtors_start = .
+ *(.dtors)
+                0x0000008c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000008c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x0000008c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000008c        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000098       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x00000098                __do_copy_data
+ .init4         0x000000b2       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                0x000000b2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000c2        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init9)
+ *(.text)
+ .text          0x000000ca        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x000000ca                __vector_22
+                0x000000ca                __vector_28
+                0x000000ca                __vector_1
+                0x000000ca                __vector_32
+                0x000000ca                __vector_34
+                0x000000ca                __vector_24
+                0x000000ca                __vector_12
+                0x000000ca                __bad_interrupt
+                0x000000ca                __vector_6
+                0x000000ca                __vector_31
+                0x000000ca                __vector_3
+                0x000000ca                __vector_23
+                0x000000ca                __vector_30
+                0x000000ca                __vector_25
+                0x000000ca                __vector_11
+                0x000000ca                __vector_13
+                0x000000ca                __vector_17
+                0x000000ca                __vector_19
+                0x000000ca                __vector_7
+                0x000000ca                __vector_27
+                0x000000ca                __vector_5
+                0x000000ca                __vector_33
+                0x000000ca                __vector_4
+                0x000000ca                __vector_9
+                0x000000ca                __vector_2
+                0x000000ca                __vector_21
+                0x000000ca                __vector_15
+                0x000000ca                __vector_29
+                0x000000ca                __vector_8
+                0x000000ca                __vector_26
+                0x000000ca                __vector_14
+                0x000000ca                __vector_10
+                0x000000ca                __vector_16
+                0x000000ca                __vector_18
+                0x000000ca                __vector_20
+ .text          0x000000ce       0xd6 GCC_asm_get_keypad_multi_code.o
+                0x000000ec                keypad_init
+                0x00000164                get_key
+ .text          0x000001a4      0x110 Junyoung.o
+                0x00000206                Init_devices
+                0x00000232                main
+                0x000001da                SCI_OutChar
+                0x000001a4                rx1_char
+                0x000001d2                ASM_getchar
+                0x000001c2                SCI_InChar
+                0x000001b2                tx1_char
+ .text          0x000002b4       0x26 GCC_asm_uart.o
+                0x000002b4                UART_Init
+                0x000002d2                UART_getchar
+                0x000002ca                UART_Transmit
+                0x000002d2                UART_Receive
+                0x000002ca                UART_putchar
+ .text          0x000002da      0x126 GCC_asm_lcd_hd44_4bit__soft_util.o
+                0x0000038e                LCD_Clear
+                0x0000034c                LCD_init
+                0x000003ac                LCD_OutString
+                0x00000318                LCD_OutCommand
+                0x000003c4                LCD_SetCsr
+                0x000002f6                LCD_OutChar
+                0x0000039e                LCD_Home
+                0x000003e0                LCD_LCD_OutChar_row_col
+ .text          0x00000400       0x34 GCC_asm_soft_delay_u_mSec.o
+                0x0000041c                delay_1uSec
+                0x00000400                delay_1mSec
+ .text          0x00000434      0x364 gnu_avr_sciutil.o
+                0x0000055c                SCI_InUHex
+                0x0000049a                SCI_OutUDec
+                0x0000050a                SCI_InString
+                0x000004f2                SCI_OutString
+                0x00000442                SCI_upCaseString
+                0x0000045c                SCI_OutUHex
+                0x00000678                SCI_InSDec
+                0x00000752                SCI_InUDec
+                0x00000434                SCI_UpCase
+                0x000005e4                SCI_InSDec_OpCode
+                0x000006fe                SCI_InUDec_OpCode
+                0x000004d0                SCI_OutSDec
+ .text          0x00000798        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .text          0x00000798        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text          0x00000798        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000798        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fdevopen.o)
+ .text          0x00000798        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .text          0x00000798        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(calloc.o)
+ .text          0x00000798        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .text          0x00000798        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memset.o)
+                0x00000798                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00000798       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                0x00000798                __udivmodhi4
+ .text.libgcc   0x000007c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x000007c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x000007c0       0x98 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fdevopen.o)
+                0x000007c0                fdevopen
+ .text.avr-libc
+                0x00000858       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(calloc.o)
+                0x00000858                calloc
+ .text.avr-libc
+                0x00000890      0x20a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00000890                malloc
+                0x000009ea                free
+ .text.avr-libc
+                0x00000a9a        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memset.o)
+                0x00000a9a                memset
+                0x00000aa8                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000aa8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                0x00000aa8                exit
+                0x00000aa8                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000aa8        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000aac                _etext = .
+
+.data           0x00800100       0x2c load address 0x00000aac
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .data          0x00800100       0x16 GCC_asm_get_keypad_multi_code.o
+                0x00800101                keyCodeMode
+ .data          0x00800116       0x10 Junyoung.o
+ .data          0x00800126        0x0 GCC_asm_uart.o
+ .data          0x00800126        0x0 GCC_asm_lcd_hd44_4bit__soft_util.o
+ .data          0x00800126        0x0 GCC_asm_soft_delay_u_mSec.o
+ .data          0x00800126        0x0 gnu_avr_sciutil.o
+ .data          0x00800126        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .data          0x00800126        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .data          0x00800126        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00800126        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fdevopen.o)
+ .data          0x00800126        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .data          0x00800126        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(calloc.o)
+ .data          0x00800126        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00800128                __malloc_heap_start
+                0x0080012a                __malloc_heap_end
+                0x00800126                __malloc_margin
+ .data          0x0080012c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memset.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080012c                . = ALIGN (0x2)
+                0x0080012c                _edata = .
+                0x0080012c                PROVIDE (__data_end, .)
+
+.bss            0x0080012c        0xd
+                0x0080012c                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080012c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .bss           0x0080012c        0x0 GCC_asm_get_keypad_multi_code.o
+ .bss           0x0080012c        0x2 Junyoung.o
+                0x0080012c                cnt
+ .bss           0x0080012e        0x0 GCC_asm_uart.o
+ .bss           0x0080012e        0x0 GCC_asm_lcd_hd44_4bit__soft_util.o
+ .bss           0x0080012e        0x0 GCC_asm_soft_delay_u_mSec.o
+ .bss           0x0080012e        0x0 gnu_avr_sciutil.o
+ .bss           0x0080012e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .bss           0x0080012e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .bss           0x0080012e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x0080012e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fdevopen.o)
+ .bss           0x0080012e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .bss           0x0080012e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(calloc.o)
+ .bss           0x0080012e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .bss           0x0080012e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memset.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080012e        0x1 Junyoung.o
+                0x0080012e                operation_mode
+ COMMON         0x0080012f        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+                0x0080012f                __iob
+ COMMON         0x00800135        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00800135                __brkval
+                0x00800137                __flp
+                0x00800139                PROVIDE (__bss_end, .)
+                0x00000aac                __data_load_start = LOADADDR (.data)
+                0x00000ad8                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800139        0x0
+                0x00800139                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800139                PROVIDE (__noinit_end, .)
+                0x00800139                _end = .
+                0x00800139                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 GCC_asm_get_keypad_multi_code.o
+ .debug_aranges
+                0x00000020       0x20 Junyoung.o
+ .debug_aranges
+                0x00000040       0x20 GCC_asm_uart.o
+ .debug_aranges
+                0x00000060       0x20 GCC_asm_lcd_hd44_4bit__soft_util.o
+ .debug_aranges
+                0x00000080       0x20 GCC_asm_soft_delay_u_mSec.o
+ .debug_aranges
+                0x000000a0       0x20 gnu_avr_sciutil.o
+
+.debug_pubnames
+                0x00000000      0x172
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x90 Junyoung.o
+ .debug_pubnames
+                0x00000090       0xe2 gnu_avr_sciutil.o
+
+.debug_info     0x00000000      0x81b
+ *(.debug_info)
+ .debug_info    0x00000000       0x70 GCC_asm_get_keypad_multi_code.o
+ .debug_info    0x00000070      0x2e7 Junyoung.o
+ .debug_info    0x00000357       0x5f GCC_asm_uart.o
+ .debug_info    0x000003b6       0x73 GCC_asm_lcd_hd44_4bit__soft_util.o
+ .debug_info    0x00000429       0x6c GCC_asm_soft_delay_u_mSec.o
+ .debug_info    0x00000495      0x386 gnu_avr_sciutil.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x393
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 GCC_asm_get_keypad_multi_code.o
+ .debug_abbrev  0x00000014      0x1ea Junyoung.o
+ .debug_abbrev  0x000001fe       0x14 GCC_asm_uart.o
+ .debug_abbrev  0x00000212       0x14 GCC_asm_lcd_hd44_4bit__soft_util.o
+ .debug_abbrev  0x00000226       0x14 GCC_asm_soft_delay_u_mSec.o
+ .debug_abbrev  0x0000023a      0x159 gnu_avr_sciutil.o
+
+.debug_line     0x00000000      0x861
+ *(.debug_line)
+ .debug_line    0x00000000       0xb6 GCC_asm_get_keypad_multi_code.o
+ .debug_line    0x000000b6      0x255 Junyoung.o
+ .debug_line    0x0000030b       0x50 GCC_asm_uart.o
+ .debug_line    0x0000035b       0xe8 GCC_asm_lcd_hd44_4bit__soft_util.o
+ .debug_line    0x00000443       0x66 GCC_asm_soft_delay_u_mSec.o
+ .debug_line    0x000004a9      0x3b8 gnu_avr_sciutil.o
+
+.debug_frame    0x00000000      0x160
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x90 Junyoung.o
+ .debug_frame   0x00000090       0xd0 gnu_avr_sciutil.o
+
+.debug_str      0x00000000      0x22b
+ *(.debug_str)
+ .debug_str     0x00000000      0x131 Junyoung.o
+                                0x16f (size before relaxing)
+ .debug_str     0x00000131       0xfa gnu_avr_sciutil.o
+                                0x167 (size before relaxing)
+
+.debug_loc      0x00000000      0x4cd
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x72 Junyoung.o
+ .debug_loc     0x00000072      0x45b gnu_avr_sciutil.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(Junyoung.elf elf32-avr)
+LOAD linker stubs
